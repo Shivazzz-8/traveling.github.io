@@ -1,0 +1,56 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:sans-serif;
+
+}
+ body
+ {
+	 width:100%;
+	 height:200px;
+	 background-image:url(travel.jpg);
+	 background-size:cover;
+	 background-position:center;
+	 background-repeat:no-repeat;
+	 background-attachment:fixed;
+	 
+ }
+  .logo
+ {
+  width:88px;
+   height:30%;  
+   margin:auto;
+   
+ }
+ 
+ .content
+ {
+	 widht:100%;
+	 position:absolute;
+	 color:white;
+	 top:45%;
+    text-align:center;
+ }
+ .content h1
+ {
+ margin-left:170px;
+ font-size:50px;
+	justify-content:center;
+ }
+ button 
+ {
+	 width:25%;
+	 margin:44px 22px;
+	 padding:10px;
+	 border-radius:17px;
+	 color:black;
+	 border:3px;
+	 font-size:22px;
+	 text-align:center;
+ }
+ button:hover
+ {
+	 background-color:rgb(0,155,266);
+	 transition:0.5s;
+	 color:white;
+ }
